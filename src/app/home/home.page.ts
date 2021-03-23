@@ -18,7 +18,7 @@ export class HomePage implements OnInit {
         if(!this.banner) {
           this.banner = new this.admob.BannerAd({
             adUnitId: adi,
-            position: 'top'
+            position: 'bottom'
           });
         }
         await this.banner.show();
